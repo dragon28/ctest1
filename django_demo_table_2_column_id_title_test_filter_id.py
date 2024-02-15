@@ -1,0 +1,1 @@
+filtered_items = DemoTable.objects.filter(id=1)
