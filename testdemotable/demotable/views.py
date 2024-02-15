@@ -9,6 +9,7 @@ def index(request):
 
 def all(request):
     demotabledata = DemoTable.objects.all()
+    context = { 'demotabledata' : demotabledata }
     return render(request, "demotable/all.html", context)
 
 def filterid(request, id):
