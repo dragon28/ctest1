@@ -7,7 +7,7 @@ $ python manage.py runserver
 or
 
 `
-$ python3 manage.py runserver`
+$ python3 manage.py runserver
 `
 
 
